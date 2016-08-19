@@ -15,7 +15,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Emoncms - <?php echo $route->controller.' '.$route->action.' '.$route->subaction; ?></title>
+        <title>Utility Drive - <?php echo $route->controller.' '.$route->action.' '.$route->subaction; ?></title>
         <link rel="shortcut icon" href="<?php echo $path; ?>Theme/<?php echo $theme; ?>/<?php echo $favicon; ?>" />
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -44,7 +44,7 @@
                           .menu-text {
                             display: none !important;
                           }
-                        }
+                        }	
                     </style>
                     <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <img src="<?php echo $path; ?>Theme/<?php echo $theme; ?>/favicon.png" style="width:28px;"/>
@@ -115,9 +115,9 @@
         </div>
 
         <div id="footer">
-            <?php echo _('Powered by '); ?>
-            <a href="http://openenergymonitor.org">openenergymonitor.org</a>
-            <span> | <a href="https://github.com/emoncms/emoncms/releases"><?php echo $emoncms_version; ?></a></span>
+            <?php echo _('Fornecido por '); ?>
+            <a href="http://utilitydrive.net">Smart Services - Utility Drive</a>
+            <span> | <?php echo $emoncms_version; ?></a>
         </div>
         <script type="text/javascript" src="<?php echo $path; ?>Lib/bootstrap/js/bootstrap.js"></script>
     </body>

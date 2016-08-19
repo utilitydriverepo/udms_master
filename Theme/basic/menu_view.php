@@ -60,7 +60,7 @@
         $out = "";
         $name = false;
         $desc = false;
-        $icon = false;
+        $icon = true;
         $published = false;
         if (isset($item['name'])) $name = $item['name'];
         if (isset($item['desc'])) $desc = $item['desc'];
