@@ -98,9 +98,9 @@
         return $a['order']>$b['order'];
     }
 ?>
-<div class="logo-box" style="width:200px; float:left; padding:5px 20px 5px 0px;">
+<div class="logo-box" style="width:145px; float:left; padding:5px 20px 5px 0px;">
     <a href="#">
-		<img class="site-logo normal_logo" alt="UtilityDrive" src="http://utilitydrive.net/wp-content/uploads/2016/02/Utility-Logo-w.png">
+		<img class="site-logo normal_logo" alt="UtilityDrive" src="<?php echo $path; ?>Theme/<?php echo $theme; ?>/Utility-Logo-w.png">
     </a>
 </div>
 <ul class="nav">
