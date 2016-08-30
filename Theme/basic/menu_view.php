@@ -100,7 +100,7 @@
 ?>
 <div class="logo-box" style="width:145px; float:left; padding:5px 20px 5px 0px;">
     <a href="#">
-		<img class="site-logo normal_logo" alt="UtilityDrive" src="<?php echo $path; ?>Theme/<?php echo $theme; ?>/Utility-Logo-w.png">
+		<img class="site-logo normal_logo" alt="UtilityDrive" src="http://bruce.udms.cloud/Theme/basic/Utility-Logo-w.png">
     </a>
 </div>
 <ul class="nav">
